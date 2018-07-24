@@ -20,6 +20,10 @@ Use the following commands:
     ```bash
     vagrant up
     ```
+
+Other usage notes:
+- You can use `vagrant destroy -f` to stop and delete the virtual machine
+
 #### Verifying the installtion
 ##### Check the Petclinic REST API is running by navigating to here:
     http://10.0.10.10:9966/petclinic/swagger-ui.html
