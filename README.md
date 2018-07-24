@@ -23,8 +23,11 @@ Use the following commands:
 ##### Verifying the installtion
 - Check the Petclinic REST API is running by navigating to here:
     http://10.0.10.10:9966/petclinic/swagger-ui.html
-![REST API](docs/images/res_api.png)
+
+![REST API](docs/images/rest_api.png)
+
 - Check the Petclinic Angular front-end is running by navigating to here:
     http://10.0.10.10:9966/petclinic/swagger-ui.html
+
 ![Angular Front-End](docs/images/angular_front_end.png)
 
