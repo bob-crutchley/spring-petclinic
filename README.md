@@ -1,5 +1,5 @@
 # Spring Petclinic
-A combination of Vagrant and Shell scripts that provisions a Centos 7 virtual machine and deploys the [spring-petclinic](https://github.com/spring-petclinic) Angular front-end and REST API
+A combination of Vagrant and Shell scripts to provision a Centos 7 virtual machine and deploy the [spring-petclinic](https://github.com/spring-petclinic) Angular front-end and REST API
 ## Setup Guide
 #### Requirements
 - [Git](https://git-scm.com/downloads)
@@ -25,12 +25,12 @@ Other usage notes:
 - You can use `vagrant destroy -f` to stop and delete the virtual machine
 
 #### Verifying the installtion
-##### Check the Petclinic REST API is running by navigating to here:
+##### Check the Petclinic REST API is running by navigating to here in a web browser:
     http://10.0.10.10:9966/petclinic/swagger-ui.html
 
 ![REST API](docs/images/rest_api.png)
 
-##### Check the Petclinic Angular front-end is running by navigating to here:
+##### Check the Petclinic Angular front-end is running by navigating to here in a web browser:
     http://10.0.10.10:9966/petclinic/swagger-ui.html
 
 ![Angular Front-End](docs/images/angular_front_end.png)
