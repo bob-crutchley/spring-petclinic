@@ -1,0 +1,13 @@
+version: '3'
+services:
+  spring-petclinic-rest:
+    image: bobcrutchley/spring-petclinic-rest
+    ports:
+    - "9966:9966"
+  spring-petclinic-angular:
+    image: bobcrutchley/spring-petclinic-angular
+    ports:
+    - "4200:4200"
+    links:
+    - spring-petclinic-rest
+
