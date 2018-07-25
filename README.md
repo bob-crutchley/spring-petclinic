@@ -31,7 +31,7 @@ Other usage notes:
 ![REST API](docs/images/rest_api.png)
 
 ##### Check the Petclinic Angular front-end is running by navigating to here in a web browser:
-    http://10.0.10.10:9966/petclinic/swagger-ui.html
+    http://10.0.10.10:4200/petclinic
 
 ![Angular Front-End](docs/images/angular_front_end.png)
 
