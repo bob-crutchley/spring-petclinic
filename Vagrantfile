@@ -41,9 +41,15 @@ end
 
 def install_packages(host, host_vm)
 	unless host['packages'].nil?
-		host_vm.vm.provision "shell", inline: <<-SHELL
-			sudo #{host['package_manager']} install -y #{host['packages'].join(" ")}
-		SHELL
+		if host['package_manager'] == "apk"
+			host_vm.vm.provision "shell", inline: <<-SHELL
+				sudo #{host['package_manager']} add #{host['packages'].join(" ")}
+			SHELL
+		else
+			host_vm.vm.provision "shell", inline: <<-SHELL
+				sudo #{host['package_manager']} install -y #{host['packages'].join(" ")}
+			SHELL
+		end
 	end
 end
 

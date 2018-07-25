@@ -1,0 +1,6 @@
+#!/bin/bash
+# configure spring-petclinic-angular
+git clone https://github.com/bob-crutchley/spring-petclinic-angular
+cd spring-petclinic-angular
+sudo docker image build -t bobcrutchley/spring-petclinic-angular .
+

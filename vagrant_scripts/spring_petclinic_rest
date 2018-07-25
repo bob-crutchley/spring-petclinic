@@ -1,0 +1,6 @@
+#!/bin/bash
+git clone https://github.com/bob-crutchley/spring-petclinic-rest
+cd spring-petclinic-rest
+mvn clean package
+sudo docker image build -t bobcrutchley/spring-petclinic-rest .
+

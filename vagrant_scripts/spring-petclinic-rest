@@ -1,5 +1,0 @@
-#!/bin/bash
-git clone https://github.com/Matt25969/spring-petclinic-rest
-cd spring-petclinic-rest
-nohup mvn spring-boot:run &
-

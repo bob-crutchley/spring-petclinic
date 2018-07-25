@@ -1,5 +1,5 @@
 # Spring Petclinic
-A combination of Vagrant and Shell scripts to provision a Centos 7 virtual machine and deploy the [spring-petclinic](https://github.com/spring-petclinic) Angular front-end and REST API
+A combination of Vagrant and Shell scripts to provision a Centos 7 virtual machine and deploy the [spring-petclinic](https://github.com/spring-petclinic) Angular front-end and REST API into Docker containers
 ## Setup Guide
 #### Requirements
 - [Git](https://git-scm.com/downloads)
@@ -31,7 +31,7 @@ Other usage notes:
 ![REST API](docs/images/rest_api.png)
 
 ##### Check the Petclinic Angular front-end is running by navigating to here in a web browser:
-    http://10.0.10.10:9966/petclinic/swagger-ui.html
+    http://10.0.10.10:4200/petclinic
 
 ![Angular Front-End](docs/images/angular_front_end.png)
 
