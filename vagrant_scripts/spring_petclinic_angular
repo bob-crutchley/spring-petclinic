@@ -1,7 +1,7 @@
 #!/bin/bash
 # configure spring-petclinic-angular
 sudo npm install -g @angular/cli@latest
-git clone https://github.com/Matt25969/spring-petclinic-angular
+git clone https://github.com/bob-crutchley/spring-petclinic-angular
 cd spring-petclinic-angular
 npm install 
 ng serve --host 0.0.0.0 --port 4200 &
